@@ -40,12 +40,19 @@
     "server": "cd server && npm run dev",
     "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+"eslintConfig": {
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "rules": {
+    "no-unused-vars": ["warn"],
+    "react-hooks/exhaustive-deps": ["warn"],
+    "react/jsx-pascal-case": ["warn"],
+    "eqeqeq": ["warn"]
+  }
+},
+
   "browserslist": {
     "production": [
       ">0.2%",
