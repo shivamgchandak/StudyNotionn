@@ -1,7 +1,5 @@
 # StudyNotion Online Education Platform (MERN App) [Website Link](https://studynotionbyshivam.netlify.app/)
 
-![Website Overview](public/studynotion.mp4)
-
 ![Main Page](public/mainpage.png)
 
 ## Project Description
